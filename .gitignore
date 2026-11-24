@@ -1,0 +1,52 @@
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Model artifacts (keep only if intentionally publishing)
+# Uncomment if you don't want model files in Git
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
+# *.pth
+
+# Large datasets (adjust according to your project)
+# data/raw/
+# data/processed/
